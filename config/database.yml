@@ -32,7 +32,7 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: postgres
+  database: jeppydb
   pool: 5
   username: postgres	
   password: <%= ENV["DB_PASS"] %>
