@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby "3.1.2"
+ruby "3.1.3"
 
 gem 'rails', '7.0.3.1'
 gem 'rack-cors'
@@ -19,6 +19,8 @@ gem 'chronic'
 gem 'rack-attack'
 
 gem 'figaro'
+
+gem 'byebug'
 
 
 # #for search

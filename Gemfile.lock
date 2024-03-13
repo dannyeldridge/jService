@@ -67,6 +67,7 @@ GEM
       minitest (>= 5.1)
       tzinfo (~> 2.0)
     builder (3.2.4)
+    byebug (11.1.3)
     chronic (0.10.2)
     concurrent-ruby (1.1.10)
     crass (1.0.6)
@@ -100,8 +101,11 @@ GEM
     net-smtp (0.3.3)
       net-protocol
     nio4r (2.5.8)
+    nokogiri (1.13.10-arm64-darwin)
+      racc (~> 1.4)
     nokogiri (1.13.10-x64-mingw-ucrt)
       racc (~> 1.4)
+    pg (1.4.5)
     pg (1.4.5-x64-mingw-ucrt)
     puma (6.0.0)
       nio4r (~> 2.0)
@@ -152,9 +156,11 @@ GEM
     zeitwerk (2.6.6)
 
 PLATFORMS
+  arm64-darwin-23
   x64-mingw-ucrt
 
 DEPENDENCIES
+  byebug
   chronic
   figaro
   nokogiri
@@ -166,7 +172,7 @@ DEPENDENCIES
   tzinfo-data
 
 RUBY VERSION
-   ruby 3.1.2p20
+   ruby 3.1.3p185
 
 BUNDLED WITH
    2.3.18
